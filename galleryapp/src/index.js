@@ -2,7 +2,8 @@ import React from "react";
 import "./index.css";
 import { createRoot } from "react-dom/client";
 // import FinalChemists from "./ChemistSearch";
-import Poem from "./Haiku";
+// import Poem from "./Haiku";
+import Clock from "./Clock";
 // import RecipeList from "./ExtractChallenge";
 // import ArrayPractice from "./ArrayPractice";
 // import Profile from "./Card.js";
@@ -14,7 +15,7 @@ const root = createRoot(domNode);
 root.render(
   <React.StrictMode>
     <div className="center">
-      <Poem />
+      <Clock />
     </div>
   </React.StrictMode>
 );
